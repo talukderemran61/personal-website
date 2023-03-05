@@ -11,6 +11,7 @@
     <style>
         body{
             margin: 0;
+            scroll-behavior: smooth;
         }
         .top-grp-btn{
             text-align: right;
@@ -58,7 +59,8 @@
             font-family: 'Roboto', sans-serif;
         }
         section{
-            height: 500px;
+            height: max-content;
+            overflow: hidden;
         }
         .half-width{
             width: 40%;
@@ -166,7 +168,7 @@
 <body>
     <section id="sec1">
         <div class="top-grp-btn">
-            <a class="top-btn" href="">About</a>
+            <a class="top-btn" href="#about">About</a>
             <a class="top-btn" href="">Work</a>
             <a class="top-btn" href="">Portfolio</a>
             <a class="top-btn top-btn-right" href="">Contact</a>
@@ -182,7 +184,7 @@
             <img src="images/Group 33082.png" alt="">
         </div>
     </section>
-    <section>
+    <section id="about">
         <div class="half-width">
             <img class="img2" src="images/Group 33082 (1).png" alt="">
         </div>
